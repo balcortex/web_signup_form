@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.main>div {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.banner {
+  flex-basis: 40%;
+  background-color: aqua;
+}
+
+.form {
+  flex-basis: 60%;
+  background-color: burlywood;
+}
+
+.input-container {
+  display: flex;
+}
